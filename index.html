@@ -6,27 +6,292 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<!--     <script src="/js/script.js"></script>
+ --></head>
 <body>
-    <header>
-        <nav>
-            <ul>    
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mí</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Trabajos</a></li>
-                <li><a href="#">Contacto</a></li> 
-            </ul>   
-        </nav>
-        <div id="header-div">
-            <div class="div-content">
-                <h1>Hola, Yo soy Facundo 123</h1>
-                <p></p>
+    <div id="content">
+        <header>
+            <nav>
+                <ul>      
+                    <!-- <li><a href="#inicio">Inicio</a></li> -->
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#">Contacto</a></li> 
+                </ul>
+            </nav>
+            <div>
+                <img class="img" src="/img/logo.png" alt="">
+            </div>   
+        </header>
+        <main>
+            <div style="height: 100%; width: 100%; display: flex; justify-content: center; ">
+                <div id="sobre-mi">
+                    <div class="div-text">
+                        <h1>Sobre mí:</h1>
+                        <p>Hola bienvenido a mi portafolio web, mi nombre es <span>Facundo Pereira</span> y estoy en búsqueda de mi primera experiencia laboral en el area IT, soy programador, me especializo en front-end y un poco en Back-end. Tengo bachillerato completo y estudio en la carrera tecnologo informatico, tambien soy autodidacta y estudio ingles particular, tengo varios cursos realizados y proyectos, mi objetivo principal es poder dominar la programacion para ser full-stack, soy una persona ambiciosa que le gusta estar aprendiendo nuevas habilidades para mejorar personalmente y profesioanlmente, soy muy dedicado a lo que hago y me encanta todo lo que esta relacionado con la tecnología.</p>
+                        <p></p>
+                    </div>
+                    <div class="div-img">
+                        <img src="img/img.png" alt="Image Profile">
+                    </div>
+                </div>
             </div>
-            <div class="div-content">
-                <img src="img/img.png" alt="Image Profile">
+            <div id="formacion">
+                <div class="content-formacion">
+                    <div class="title-formacion">
+                        <h1>Formación:</h1>
+                    </div>
+                    <div id="content-card">
+                        <div id="card-front-end">
+                            <h2>Front-end</h2>
+                            <ul>
+                                <li>HTML</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:100%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>CSS</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:75%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>JavaScript</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:75%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>Boostrap</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:100%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>Git</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:100%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>GitHub</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:100%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>React</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:25%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div id="card-back-end">
+                            <h2>Back-end</h2>
+                            <ul>
+                                <li>Node.js</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:50%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>Express</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:50%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                                <li>Python</li>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:50%;">
+                                        <span class="progress-bar-text"></span>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div id="cursos">
+                            <h2>Cursos</h2>
+                            <div class="div-cursos">
+                                <div>
+                                    <a href="https://drive.google.com/file/d/15iiWNbQWWcDou2czbe3nOQveow2BLt54/view"
+                                        target="_blank"> Desarrollo web (Plan Ceibal)</a>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/drive/folders/1Q6Lau8G_fkIZ-fyVqvNjjv9z56gmVDAH?usp=share_link"
+                                        target="_blank">Full-stack IBM (6/12) (Coursera)</a>
+                                </div>
+                                <div>
+                                    <a href="https://www.freecodecamp.org/certification/facu_pereira99/responsive-web-design"
+                                        target="_blank">Responsive Web Design (FreeCodeCamp)</a>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1Jaozq4ClwXeCzjdcFdMfQ-l1hO1tSoVR/view"
+                                        target="_blank">Scrum Master (Coursera)</a>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/13zR9yL3FDf91Gf-wJNomfT4qb5BmxHyq/view?usp=share_link"
+                                        target="_blank">Excel Avanzado (IAC)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </header>
+            <div id="trabajos" style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;">
+                <div class="content-trabajos">
+                    <!-- <div class="title-trabajos">
+                        <h1>Trabajos:</h1>
+                    </div> -->
+                    <div class="gallery">
+                        <!-- <button class="gallery-controls-previous">"previous"
+                        </button> -->
+                        <div class="gallery-container">
+                            <div class="slide-container gallery-item gallery-item-1">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                    
+                                        <div class="card-image">
+                                            <img src="img/e-commerce.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                    
+                                        <button class="button"> View More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-container gallery-item gallery-item-1" data-index="1">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                    
+                                        <div class="card-image">
+                                            <img src="img/e-commerce.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                    
+                                        <button class="button"> View More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-container gallery-item gallery-item-2" data-index="2">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                    
+                                        <div class="card-image">
+                                            <img src="img/e-commerce.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                    
+                                        <button class="button"> View More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-container gallery-item gallery-item-3" data-index="3">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                    
+                                        <div class="card-image">
+                                            <img src="img/e-commerce.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                    
+                                        <button class="button"> View More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-container gallery-item gallery-item-4" data-index="4">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                    
+                                        <div class="card-image">
+                                            <img src="img/e-commerce.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                    
+                                        <button class="button"> View More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-container gallery-item gallery-item-5" data-index="5">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                    
+                                        <div class="card-image">
+                                            <img src="img/e-commerce.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                    
+                                        <button class="button"> View More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <img src="img/registroImg.jpeg" alt="" class="gallery-item gallery-item-1" data-index="1">
+                            <img src="img/e-commerce.jpeg" alt="" class="gallery-item gallery-item-2" data-index="2">
+                            <img src="img/japCrudImg.jpeg" alt="" class="gallery-item gallery-item-3" data-index="3">
+                            <img src="img/japflixImg.jpeg" alt="" class="gallery-item gallery-item-4" data-index="4">
+                            <img src="img/buscadorNasaImg.jpeg" alt="" class="gallery-item gallery-item-5" data-index="5"> -->
+                        </div>
+                        <!-- <button class="gallery-controls-previous">"next"
+                        </button> -->
+                        <div class="gallery-controls"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="slide-container gallery-item gallery-item-1">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                        <div class="card-image">
+                            <img src="img/e-commerce.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+    
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+    
+                        <button class="button"> View More</button>
+                    </div>
+                </div>
+            </div> -->
+        </main>
+    </div> 
+    <script src="/js/script.js"></script>
 </body>
+
 </html>
